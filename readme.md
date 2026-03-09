@@ -1,15 +1,22 @@
 ## CST8915 – Full-stack Cloud-native Development
 
-### Midterm project: 
+# Midterm project: 
 Extending the Algonquin Pet Store with an Order Analytics Microservice
 
 ## Professor:   Ramy Mohamed
 ## Student:  Hesheng Yang, Youssuf Hichri , Usama Iqbal
 
+### Youtube Video Link
 -  Link to Youtube Part1, Demo for application running locally : https://youtu.be/kJ3Ht9iGcm8
 -  Link to Youtube Part2, Demo for application running on Azure : https://youtu.be/F0iaijkEP2Y
 -  ink to Application running on Azure second account: https://youtu.be/tdb4v1IvAvU
 -  Link to Analytics service running as web app communicating with RabbitMQ as embedded server from second account (final part): https://youtu.be/ia0mgLSnxbw
+
+## Source code
+-  https://github.com/hycst/8915mid-order-service
+-  https://github.com/hycst/8915-store-front
+-  https://github.com/hycst/8915-order-analytics-service
+-  https://github.com/hycst/8915-store-front
 
 ## Brief overview of our order-analytics-service (language choice + architecture decisions)
 ##  What it is:
