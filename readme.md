@@ -12,19 +12,19 @@ Extending the Algonquin Pet Store with an Order Analytics Microservice
 -  ink to Application running on Azure second account: https://youtu.be/tdb4v1IvAvU
 -  Link to Analytics service running as web app communicating with RabbitMQ as embedded server from second account (final part): https://youtu.be/ia0mgLSnxbw
 
-## Source code
+### Source code
 -  https://github.com/hycst/8915mid-order-service
 -  https://github.com/hycst/8915-store-front
 -  https://github.com/hycst/8915-order-analytics-service
 -  https://github.com/hycst/8915-store-front
 
 ## Brief overview of our order-analytics-service (language choice + architecture decisions)
-##  What it is:
+###  What it is:
 In the mid term project, the order-analytics-service is a new microservice, that consumes order messages from RabbitMQ queue order_queue , and exposes REST analytics endpoints so we can see the details orders, total profit, and top products.
-## Development Language choice:
+### Development Language choice:
 We used node.js, the reason is, it fits microservices well, and it has strong RabbitMQ + REST libraries, furthermore, it can deploy easily to Azure App Service.
 
-Futhermore, some team member implemented the service in Python as second option, since Python has mature messaging libraries and is commonly used for data processing and analytics workloads.
+Futhermore, team member implemented the service in Python as second option, since Python has mature messaging libraries and is commonly used for data processing and analytics workloads.
 
 ### 1) Architecture decisions (key points):
 -	Event-driven design: order-service publishes events → analytics service consumes events.
