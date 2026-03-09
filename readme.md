@@ -24,7 +24,7 @@ In the mid term project, the order-analytics-service is a new microservice, that
 ### Development Language choice:
 We used node.js, the reason is, it fits microservices well, and it has strong RabbitMQ + REST libraries, furthermore, it can deploy easily to Azure App Service.
 
-Futhermore, team member implemented the service in Python as second option, since Python has mature messaging libraries and is commonly used for data processing and analytics workloads.
+Futhermore, we team member implemented the service in Python as second option, since Python has mature messaging libraries and is commonly used for data processing and analytics workloads.
 
 ### 1) Architecture decisions (key points):
 -	Event-driven design: order-service publishes events → analytics service consumes events.
