@@ -22,7 +22,7 @@ Extending the Algonquin Pet Store with an Order Analytics Microservice
 ###  What it is:
 In the mid term project, the order-analytics-service is a new microservice, that consumes order messages from RabbitMQ queue order_queue , and exposes REST analytics endpoints so we can see the details orders, total profit, and top products.
 ### Development Language choice:
-We used node.js, the reason is, it fits microservices well, and it has strong RabbitMQ + REST libraries, furthermore, it can deploy easily to Azure App Service.
+We used node.js for one but because we had multiple members wanting to see how it would perform with a different stack we also had another member develop the service in python, both implementations complied with microservices well, and it has strong RabbitMQ + REST libraries, furthermore, it can deploy easily to Azure App Service. Because two full fledged solutions were developed by the group, that is the reason why there are multiple videos as well as the submission, the videos talk about both solutions developed namely the python application as well as the node.js application for order analytics. 
 
 Futhermore, we team member implemented the service in Python as second option, since Python has mature messaging libraries and is commonly used for data processing and analytics workloads.
 
